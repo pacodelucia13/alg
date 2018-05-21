@@ -62,11 +62,11 @@ public class Percolation
     {
         if (i>gridLength || i < 1 )
         {
-            throw new IndexOutOfBoundsException("row index i out of bounds");
+            throw new IllegalArgumentException("row index i out of bounds");
         }
         if (j>gridLength || j<1)
         {
-            throw new IndexOutOfBoundsException("column index j out of bounds");
+            throw new IllegalArgumentException("column index j out of bounds");
         }
     }
 
